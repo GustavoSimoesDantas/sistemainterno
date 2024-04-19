@@ -4,8 +4,10 @@
 }
 
 body {
-    background-image: url(/img/imagem\ de\ fundo.jpg);
+    background-image: url("./img/imagem\ de\ fundo.jpg");
+    
 }
+
 
 .menu { 
     display: flaxbox;
@@ -20,4 +22,17 @@ a {
     text-decoration: none;
     margin-left: 8%;
     margin-bottom: px;
+}
+
+.grafico1 {
+    border-radius: 20px;
+    height: 400px;
+    width: 600px;
+}
+
+.grafico2 {
+    border-radius: 20px;
+    height: 400px;
+    width: 630px;
+
 }
